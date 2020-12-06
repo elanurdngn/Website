@@ -1,0 +1,574 @@
+.zemin{
+	width: 1200px;
+	height: 1400px;
+	margin:auto;
+}
+.menu{
+	width: 1200px;
+	height: 60px;
+	border-top:3px solid #deb249;
+	border-bottom: 3px solid #deb249;
+	background-color: white;
+	position: fixed;
+	margin-top: 10px;
+}
+.clear{clear: both;}
+.menu ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu li{
+	float: left;
+	position: relative;
+	width: 170px;
+}
+.menu ul li a{
+	border-left:3px solid #deb249;
+	color:black;
+	display: block;
+	font:bold 12px Arial;
+	margin: 0;
+	padding: 22px 3px;
+	text-decoration: none;
+	line-height: 16px;
+	text-align: center;
+}
+.menu li ul a{text-align: center; border-left:10px solid #deb249;}
+.menu li ul{
+	display: none;
+	left:0px;
+	position: absolute;
+	top: 63px;
+	background-color: white;
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu ul li a:hover{
+	color:#deb249;
+}
+.gifler{margin-left: 40px; padding-top: 100px;}
+.gifler img{
+	width: 350px;
+	height: 400px;
+	margin-right: 30px;
+}
+.gifler p{
+	width: 300px;
+	text-align: center;
+	margin-left: 20px; 
+	margin-right: 65px;
+	float: left;
+}
+.icerik{ padding-top:100px; float:left; padding-left: 50px; }
+.skutu{widows: 50px; height: 50px; background-color:#deb249; color: white; }
+
+.kutu39{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu39 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalemlik.1.jpg) 0 0 no-repeat;
+}
+.kutu39 p{text-align: center;  }
+div.kutu39 a{background-position: 0 0; }
+div.kutu39 a:hover{background-position: 0 -300px;}
+
+.kutu38{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu38 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/zımba.1.jpg) 0 0 no-repeat;
+}
+.kutu38 p{text-align: center;  }
+div.kutu38 a{background-position: 0 0; }
+div.kutu38 a:hover{background-position: 0 -300px;}
+
+.kutu37{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu37 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/set3.1.jpg) 0 0 no-repeat;
+}
+.kutu37 p{text-align: center;  }
+div.kutu37 a{background-position: 0 0; }
+div.kutu37 a:hover{background-position: 0 -300px;}
+
+.kutu36{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu36 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/zımba2.1.jpg) 0 0 no-repeat;
+}
+.kutu36 p{text-align: center;  }
+div.kutu36 a{background-position: 0 0; }
+div.kutu36 a:hover{background-position: 0 -300px;}
+
+.kutu35{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu35 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/bant2.jpg) 0 0 no-repeat;
+}
+.kutu35 p{text-align: center;  }
+div.kutu35 a{background-position: 0 0; }
+div.kutu35 a:hover{background-position: 0 0px;}
+
+.kutu34{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu34 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalemlik4.1.jpg) 0 0 no-repeat;
+}
+.kutu34 p{text-align: center;  }
+div.kutu34 a{background-position: 0 0; }
+div.kutu34 a:hover{background-position: 0 -300px;}
+
+.kutu33{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu33 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/set2.1.jpg) 0 0 no-repeat;
+}
+.kutu33 p{text-align: center;  }
+div.kutu33 a{background-position: 0 0; }
+div.kutu33 a:hover{background-position: 0 -300px;}
+
+.kutu32{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu32 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem7.1.jpg) 0 0 no-repeat;
+}
+.kutu32 p{text-align: center;  }
+div.kutu32 a{background-position: 0 0; }
+div.kutu32 a:hover{background-position: 0 -300px;}
+
+.kutu31{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu31 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem5.1.jpg) 0 0 no-repeat;
+}
+.kutu31 p{text-align: center;  }
+div.kutu31 a{background-position: 0 0; }
+div.kutu31 a:hover{background-position: 0 -300px;}
+
+.kutu30{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu30 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem6.1.jpg) 0 0 no-repeat;
+}
+.kutu30 p{text-align: center;  }
+div.kutu30 a{background-position: 0 0; }
+div.kutu30 a:hover{background-position: 0 -300px;}
+
+.kutu29{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu29 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem3.1.jpg) 0 0 no-repeat;
+}
+.kutu29 p{text-align: center;  }
+div.kutu29 a{background-position: 0 0; }
+div.kutu29 a:hover{background-position: 0 -300px;}
+
+.kutu28{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu28 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter14.1.jpg) 0 0 no-repeat;
+}
+.kutu28 p{text-align: center;  }
+div.kutu28 a{background-position: 0 0; }
+div.kutu28 a:hover{background-position: 0 -300px;}
+
+.kutu27{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu27 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter2.1.jpg) 0 0 no-repeat;
+}
+.kutu27 p{text-align: center;  }
+div.kutu27 a{background-position: 0 0; }
+div.kutu27 a:hover{background-position: 0 -300px;}
+
+.kutu26{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu26 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter8.1.jpg) 0 0 no-repeat;
+}
+.kutu26 p{text-align: center;  }
+div.kutu26 a{background-position: 0 0; }
+div.kutu26 a:hover{background-position: 0 -300px;}
+
+.kutu25{width: 250px; height: 330px; float:left; padding-right: 30px; padding-top: 60px;}
+.kutu25 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter15.1.jpg) 0 0 no-repeat;
+}
+.kutu25 p{text-align: center;  }
+div.kutu25 a{background-position: 0 0; }
+div.kutu25 a:hover{background-position: 0 -300px;}
+
+.kutu24{width: 250px; height: 330px; float:left; padding-right: 30px;  padding-top: 60px;}
+.kutu24 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter5.1.jpg) 0 0 no-repeat;
+}
+.kutu24 p{text-align: center;  }
+div.kutu24 a{background-position: 0 0; }
+div.kutu24 a:hover{background-position: 0 -300px;}
+
+.kutu23{width: 250px; height: 330px; float:left; padding-right: 30px;  padding-top: 60px; }
+.kutu23 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter7.1.jpg) 0 0 no-repeat;
+}
+.kutu23 p{text-align: center;  }
+div.kutu23 a{background-position: 0 0; }
+div.kutu23 a:hover{background-position: 0 -300px;}
+
+.kutu22{width: 250px; height: 330px; float:left; padding-right: 30px;  padding-top: 60px;}
+.kutu22 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter10.1.jpg) 0 0 no-repeat;
+}
+.kutu22 p{text-align: center;  }
+div.kutu22 a{background-position: 0 0; }
+div.kutu22 a:hover{background-position: 0 -300px;}
+
+.kutu21{width: 250px; height: 330px; float:left; padding-right: 30px;  padding-top: 60px;}
+.kutu21 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter9.1.jpg) 0 0 no-repeat;
+}
+.kutu21 p{text-align: center;  }
+div.kutu21 a{background-position: 0 0; }
+div.kutu21 a:hover{background-position: 0 -300px;}
+
+.kutu20{width: 250px; height: 330px; float:left; padding-right: 30px;  padding-top: 60px;}
+.kutu20 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem4.1.jpg) 0 0 no-repeat;
+}
+.kutu20 p{text-align: center;  }
+div.kutu20 a{background-position: 0 0; }
+div.kutu20 a:hover{background-position: 0 -300px;}
+
+.kutu19{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu19 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/post-it.1.jpg) 0 0 no-repeat;
+}
+.kutu19 p{text-align: center; margin-bottom:20px;}
+div.kutu19 a{background-position: 0 0; }
+div.kutu19 a:hover{background-position: 0 -300px;}
+
+.kutu18{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu18 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/silgi.1.jpg) 0 0 no-repeat;
+}
+.kutu18 p{text-align: center;}
+div.kutu18 a{background-position: 0 0; }
+div.kutu18 a:hover{background-position: 0 -300px;}
+
+.kutu17{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu17 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalemlik3.1.jpg) 0 0 no-repeat;
+}
+.kutu17 p{text-align: center;}
+div.kutu17 a{background-position: 0 0; }
+div.kutu17 a:hover{background-position: 0 -300px;}
+
+.kutu16{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu16 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem2.1.jpg) 0 0 no-repeat;
+}
+.kutu16 p{text-align: center;}
+div.kutu16 a{background-position: 0 0; }
+div.kutu16 a:hover{background-position: 0 -300px;}
+
+.kutu15{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu15 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter12.1.jpg) 0 0 no-repeat;
+}
+.kutu15 p{text-align: center;}
+div.kutu15 a{background-position: 0 0; }
+div.kutu15 a:hover{background-position: 0 -300px;}
+
+.kutu14{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu14 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter3.1.jpg) 0 0 no-repeat;
+}
+.kutu14 p{text-align: center;}
+div.kutu14 a{background-position: 0 0; }
+div.kutu14 a:hover{background-position: 0 -300px;}
+
+.kutu13{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu13 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/bant.jpg) 0 0 no-repeat;
+}
+.kutu13 p{text-align: center;}
+div.kutu13 a{background-position: 0 0; }
+div.kutu13 a:hover{background-position: 0 0px;}
+
+.kutu12{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu12 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/açıcak.1.jpg) 0 0 no-repeat;
+}
+.kutu12 p{text-align: center;}
+div.kutu12 a{background-position: 0 0; }
+div.kutu12 a:hover{background-position: 0 -300px;}
+
+.kutu11{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu11 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/set.1.jpg) 0 0 no-repeat;
+}
+.kutu11 p{text-align: center;}
+div.kutu11 a{background-position: 0 0; }
+div.kutu11 a:hover{background-position: 0 -300px;}
+
+.kutu10{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu10 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalem.1.jpg) 0 0 no-repeat;
+}
+.kutu10 p{text-align: center;}
+div.kutu10 a{background-position: 0 0; }
+div.kutu10 a:hover{background-position: 0 -300px;}
+
+.kutu9{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu9 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter11.1.jpg) 0 0 no-repeat;
+}
+.kutu9 p{text-align: center;}
+div.kutu9 a{background-position: 0 0; }
+div.kutu9 a:hover{background-position: 0 -300px;}
+
+.kutu8{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu8 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/kalemlik2.1.jpg) 0 0 no-repeat;
+}
+.kutu8 p{text-align: center;}
+div.kutu8 a{background-position: 0 0; }
+div.kutu8 a:hover{background-position: 0 -300px;}
+
+.kutu7{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu7 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/set4.1.jpg) 0 0 no-repeat;
+}
+.kutu7 p{text-align: center;}
+div.kutu7 a{background-position: 0 0; }
+div.kutu7 a:hover{background-position: 0 -300px;}
+
+.kutu6 {width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu6 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter4.1.jpg) 0 0 no-repeat;
+}
+.kutu6 p{text-align: center;}
+div.kutu6 a{background-position: 0 0; }
+div.kutu6 a:hover{background-position: 0 -300px;}
+
+.kutu5{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu5 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/bant3.jpg) 0 0 no-repeat;
+}
+.kutu5 p{text-align: center;}
+div.kutu5 a{background-position: 0 0; }
+div.kutu5 a:hover{background-position: 0 0px;}
+
+.kutu4 {width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu4 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter6.1.jpg) 0 0 no-repeat;
+}
+.kutu4 p{text-align: center;}
+div.kutu4 a{background-position: 0 0; }
+div.kutu4 a:hover{background-position: 0 -300px;}
+
+.kutu3{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu3 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/dosya.1.jpg) 0 0 no-repeat;
+}
+.kutu3 p{text-align: center;}
+div.kutu3 a{background-position: 0 0; }
+div.kutu3 a:hover{background-position: 0 -300px;}
+
+.kutu2{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu2 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter13.1.jpg) 0 0 no-repeat;
+}
+.kutu2 p{text-align: center;}
+div.kutu2 a{background-position: 0 0; }
+div.kutu2 a:hover{background-position: 0 -300px;}
+
+.kutu1{width: 250px; height: 330px; float:left;  padding-right: 30px; padding-top: 60px;}
+.kutu1 a{
+	display: block;
+	width: 250px;
+	height: 300px;
+	outline: none;
+	text-decoration: none;
+	background: url(images/defter.1.jpg) 0 0 no-repeat;
+}
+.kutu1 p{text-align: center; }
+div.kutu1 a{background-position: 0 0; }
+div.kutu1 a:hover{background-position: 0 -300px;}
+h1{text-align: center;}
